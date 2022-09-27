@@ -24,12 +24,3 @@ passwordEl.addEventListener("click", function() {
    firstPassword.style.display = "block";
    secondPassword.style.display = "block";
 });
-
-/*
-firstPassword.setSelectionRange(0,99999);
-firstPassword.select();
-secondPassword.setSelectionRange(0,99999);
-secondPassword.select();
-
-navigator.clipboard.writeText(firstPassword.value);
-navigator.clipboard */
